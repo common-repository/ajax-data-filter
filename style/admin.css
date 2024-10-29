@@ -1,0 +1,133 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Light.ttf);
+}
+
+/**
+ * Start by hiding the checkboxes
+ */
+.yd_admin-main input[type=checkbox] {
+	visibility: hidden;
+}
+
+/**
+ * Checkbox 
+ */
+.yd_checkboxThree {
+	width: 68px;
+	height: 26px;
+	background: antiquewhite;
+	margin: 20px 60px;
+	border-radius: 50px;
+	position: relative;
+}
+
+/**
+ * Create the text for the On position
+ */
+.yd_checkboxThree:before {
+	content: 'On';
+	position: absolute;
+	top: 4px;
+	left: 8px;
+	height: 2px;
+	color: #f26c4f;
+	font-size: 14px;
+}
+/**
+ * Create the text for the On position
+ */
+.yd_checkboxThree:after {
+	content: 'off';
+	position: absolute;
+	top: 4px;
+	right: 13px;
+	height: 2px;
+	color: #999;
+	font-size: 14px;
+}
+
+/**
+ * Create the pill to click
+ */
+.yd_checkboxThree label {
+	display: block;
+	width: 28px;
+	height: 18px;
+	border-radius: 50px;
+	transition: all .5s ease;
+	cursor: pointer;
+	position: absolute;
+	top:4px;
+	z-index: 1;
+	left: 4px;
+	background: #ddd;
+}
+
+/**
+ * Create the checkbox event for the label
+ */
+.yd_checkboxThree input[type=checkbox]:checked + label {
+	left: 34px;
+	background: #f26c4f;
+}
+
+
+
+.yd_contact {
+    width: 100%;
+    float: left;
+    font-family: Roboto-Light;
+    color: #666;
+    margin:20px 0 0 0;
+    padding-bottom:20px;
+}
+
+.yd_admin-main {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    font-family: Roboto-Light;
+    color: #666;
+    background:#fff;
+}
+
+.yd_admin-main h4 {
+    margin-top: 20px;
+}
+
+
+#yd_text_field {
+    border: 1px solid #ccc;
+    width: 300px;
+	padding:7px;
+    border-radius: 4px;
+}
+
+#yd-submit {
+    padding: 6px 22px 6px 22px;
+    color: #fff;
+    border: 0;
+    background: #000;
+    margin: 10px;
+    border-radius: 3px;
+    transition: all 0.1s ease-out;
+}
+
+#yd-submit:hover {
+    background: blueviolet;
+    cursor: pointer;
+}
+	
+#yd-header {
+background:#f26c4f;
+color:#fff;
+float:left;
+width:100%;
+margin-bottom: 12px;
+}
+#yd-header p{
+padding-left:5px;
+}
+
+	

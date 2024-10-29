@@ -1,0 +1,40 @@
+/* Font
+-------------------------------------------------------------- */
+@font-face {
+		font-family: 'Roboto';
+		src: url(../fonts/Roboto-Light.ttf);
+		}
+
+	a, ul {
+		list-style: none;
+		text-decoration: none;
+		color:#56A1D1;
+	}
+
+	header, section, footer, aside, nav, main, article, figure {
+		display: block;
+	}
+
+
+	.main {
+		width:1200px;
+		margin:auto;
+		float:none;
+		font-family: 'Roboto';
+	}
+	
+	.title {
+		text-align:center;
+		padding:20px 0 20px 0;
+		font-size:34px;
+	}
+	
+	.text {
+		color:#56A1D1;
+		font-family: 'Roboto';
+		font-size:16px;
+		margin-top:5px;
+		border:0;
+		width:400px;
+	}
+

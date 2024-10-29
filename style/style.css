@@ -1,0 +1,60 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Light.ttf);
+}
+#yd_data-form  {
+font-family: Roboto;
+color: #444;
+}
+#yd_data-form input {
+opacity:1;
+}
+
+#yd_data-form input[type="submit"] {
+    width: 88% !important;
+    border-radius: 3px !important;
+    border: 1px solid #ccc !important;
+	padding: 9px !important;
+	margin: 14px 0 0 9px !important;
+    color: #777 !important;
+    transition: all 0.2s ease-out !important;
+    font-family: Roboto !important;
+	background:#fff !important;
+	font-weight:0 !important;
+	text-transform: none !important;
+	vertical-align: none !important;
+	line-height: 1.5 !important;
+        font-weight: normal !important;
+}
+
+#yd_data-form  input[type="submit"]:hover {
+    cursor: pointer;
+    border: 1px solid #777 !important;
+    color: #222 !important;
+}
+
+
+.loadmore {
+	float:left;
+	width:100%;
+	padding:5px;
+	text-align:center;
+	border:1px solid #888;
+	color:#666;
+}
+
+
+	
+	
+.yd_post {
+	float:left;
+	display:block;
+	width:33.3%;
+	padding:5px;
+	overflow:hidden;
+	}
+
+.yd_post img{
+width:100%;
+height:auto;
+}
